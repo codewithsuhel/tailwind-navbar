@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/80a4ad522e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="bg-violet-700 h-20 w-full">
+            <input type="checkbox" id="check" hidden>
+            <label for="check" class="float-right leading-[80px] text-white mr-10 text-2xl lg:hidden">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <span class="text-3xl lg:text-4xl font-bold pl-12 lg:pl-24 leading-[80px] lg:leading-[80px] text-white">Tailwind</span>
+            <ul class="float-right mr-10 lg:flex space-x-4 leading-[80px] fixed lg:relative h-[100vh] lg:h-0 w-[100%] lg:w-fit top-20 lg:top-0 left-[-100%] lg:left-0 transition-all lg:transition-none duration-300 bg-violet-800 text-center text-white">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
